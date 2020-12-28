@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+  <servlet>
+    <servlet-name>Test</servlet-name>
+    <servlet-class>sdzee.com.servlets.loginservlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Test</servlet-name>
+    <url-pattern>/loginservlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Test1</servlet-name>
+    <servlet-class>sdzee.com.servlets.iscriptionservlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Test1</servlet-name>
+    <url-pattern>/iscriptionservlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+		<servlet-name>Recherche</servlet-name>
+		<servlet-class>sdzee.com.servlets.Recherche</servlet-class>
+
+		
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>Recherche</servlet-name>
+		<url-pattern>/recherche</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>Resultat</servlet-name>
+		<servlet-class>sdzee.com.servlets.Resultat</servlet-class>
+
+		
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>Resultat</servlet-name>
+		<url-pattern>/resultat</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>Resultat_reservation</servlet-name>
+		<servlet-class>sdzee.com.servlets.Resultat_reservation</servlet-class>
+
+		
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>Resultat_reservation</servlet-name>
+		<url-pattern>/reservation</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	
+  
+	<servlet>
+		<servlet-name>changeuser</servlet-name>
+		<servlet-class> sdzee.com.servlets.Changeuser</servlet-class>
+
+		
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>changeuser</servlet-name>
+		<url-pattern>/changeuser</url-pattern>
+	</servlet-mapping>
+		<servlet>
+		<servlet-name>ReservationUser</servlet-name>
+		<servlet-class> sdzee.com.servlets.ReservationUser</servlet-class>
+
+		
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>ReservationUser</servlet-name>
+		<url-pattern>/reservationuser</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>Gestion_employes</servlet-name>
+		<servlet-class>sdzee.com.servlets.Gestion_employes</servlet-class>
+
+		
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>Gestion_employes</servlet-name>
+		<url-pattern>/gestionemployes</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>Ajouter_employe</servlet-name>
+		<servlet-class>sdzee.com.servlets.Ajouter_employe</servlet-class>
+
+		
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>Ajouter_employe</servlet-name>
+		<url-pattern>/ajouteremploye</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>Modifier_employe</servlet-name>
+		<servlet-class>sdzee.com.servlets.Modifier_employe</servlet-class>
+
+		
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>Modifier_employe</servlet-name>
+		<url-pattern>/modifieremploye</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	<servlet>
+		<servlet-name>Enregistrer_modif_employe</servlet-name>
+		<servlet-class>sdzee.com.servlets.Enregistrer_modif_employe</servlet-class>
+
+		
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>Enregistrer_modif_employe</servlet-name>
+		<url-pattern>/Enregistrermodifemploye</url-pattern>
+	</servlet-mapping>
+	
+		<servlet>
+		<servlet-name>Supprimer_employe</servlet-name>
+		<servlet-class>sdzee.com.servlets.Supprimer_employe</servlet-class>
+
+		
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>Supprimer_employe</servlet-name>
+		<url-pattern>/supprimeremploye</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>Ajouter_chambre</servlet-name>
+		<servlet-class>sdzee.com.servlets.Ajouter_chambre</servlet-class>
+
+		
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>Ajouter_chambre</servlet-name>
+		<url-pattern>/ajouterchambre</url-pattern>
+	</servlet-mapping>
+	
+		<servlet>
+		<servlet-name>Modifier_chambre</servlet-name>
+		<servlet-class>sdzee.com.servlets.Modifier_chambre</servlet-class>
+
+		
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>Modifier_chambre</servlet-name>
+		<url-pattern>/modifierchambre</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	<servlet>
+		<servlet-name>Enregistrer_modif_chambre</servlet-name>
+		<servlet-class>sdzee.com.servlets.Enregistrer_modif_chambre</servlet-class>
+
+		
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>Enregistrer_modif_chambre</servlet-name>
+		<url-pattern>/Enregistrermodifchambre</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	
+	<servlet>
+		<servlet-name>Supprimer_chambre</servlet-name>
+		<servlet-class>sdzee.com.servlets.Supprimer_chambre</servlet-class>
+
+		
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>Supprimer_chambre</servlet-name>
+		<url-pattern>/supprimerchambre</url-pattern>
+	</servlet-mapping>
+		<servlet>
+		<servlet-name>Gestion_hotel</servlet-name>
+		<servlet-class>sdzee.com.servlets.Gestion_hotel</servlet-class>
+
+		
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>Gestion_hotel</servlet-name>
+		<url-pattern>/gestionhotel</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>Ajouter_hotel</servlet-name>
+		<servlet-class>sdzee.com.servlets.Ajouter_hotel</servlet-class>
+
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>Ajouter_hotel</servlet-name>
+		<url-pattern>/ajouterhotel</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>Modifier_hotel</servlet-name>
+		<servlet-class>sdzee.com.servlets.Modifier_hotel</servlet-class>
+
+		
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>Modifier_hotel</servlet-name>
+		<url-pattern>/modifierhotel</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	<servlet>
+		<servlet-name>Enregistrer_modif_hotel</servlet-name>
+		<servlet-class>sdzee.com.servlets.Enregistrer_modif_hotel</servlet-class>
+
+		
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>Enregistrer_modif_hotel</servlet-name>
+		<url-pattern>/Enregistrermodifhotel</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>Supprimer_hotel</servlet-name>
+		<servlet-class>sdzee.com.servlets.Supprimer_hotel</servlet-class>
+
+		
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>Supprimer_hotel</servlet-name>
+		<url-pattern>/supprimerhotel</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Ajouter_admin_local</servlet-name>
+		<servlet-class>sdzee.com.servlets.Ajouter_admin_local</servlet-class>
+
+		
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>Ajouter_admin_local</servlet-name>
+		<url-pattern>/ajouteradminlocal</url-pattern>
+	</servlet-mapping>
+	
+</web-app>

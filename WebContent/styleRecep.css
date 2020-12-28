@@ -1,0 +1,9 @@
+  .modalito{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height:80vh;
+}
+b{
+    color:black;
+}
